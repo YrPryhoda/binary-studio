@@ -24,36 +24,45 @@
     #cf0404
   );
 }
+
 .grid > .row > .column,
 .avatar-wrapper {
   padding: 0;
 }
+
 .row > .column > .stackable {
   margin-left: 1rem;
 }
+
 .my-header .name,
 .my-header .job {
   text-align: center;
 }
+
 .my-header .job {
   font-size: 1.3rem;
   font-style: oblique;
 }
+
 .page {
   background-color: #ececec;
   box-shadow: inset 3px 0 7px 7px #fff;
 }
+
 .avatar {
   border: 1px solid rgba(236, 232, 0, 0.274);
   width: 100%;
   border-radius: 10px;
 }
+
 .contacts {
   font-size: 1.1rem;
 }
+
 .contacts li a:hover {
   color: #2a0505 !important;
 }
+
 .contacts li a::after {
   content: "";
   display: block;
@@ -64,9 +73,11 @@
   transform: scale(0);
   transition: all 0.6s;
 }
+
 .contacts li a:hover::after {
   transform: scale(1);
 }
+
 .intro {
   background-color: #ffffffb0;
   padding: 0.8rem;
@@ -74,10 +85,12 @@
   border-radius: 13px;
   box-shadow: -3px 1px 2px -1px #940303c7;
 }
+
 h3 {
   color: #740909;
 }
-.details > input:after {
+
+.details > input::after {
   content: "";
   background-image: url("../images/apple.png");
   background-repeat: no-repeat;
@@ -85,14 +98,17 @@ h3 {
   width: 15px;
   border: 0;
 }
+
 .details > input:checked {
   transform: rotate(360deg);
   transition: all 1s;
 }
+
 .column section p {
   padding-left: 10px;
   border-left: 2px solid yellow;
 }
+
 .logo-block {
   text-align: center;
   position: fixed;
@@ -102,12 +118,15 @@ h3 {
   z-index: -1;
   padding: 0.5rem;
 }
+
 .logo {
   width: 50%;
 }
+
 article {
   margin-top: 28vh;
 }
+
 main {
   margin-bottom: 28vh;
 }
